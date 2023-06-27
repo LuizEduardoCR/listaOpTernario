@@ -8,11 +8,13 @@
     // - cães grandes: fator 7.
 
     //Entrada
-
+    const idade = Number(prompt("informe a idade do seu cão:"));
+    const porte = prompt("seu cachorro é grande, medio ou pequeno(responda com 'g', 'm' ou 'p')").toUpperCase;
 
     //Processamento
-
-    
+    let idadecao = (porte == "G")? `a idade humana do seu cao é ${idade * 7}`
+    :idadecao=(porte == "M")? `a idade humana do seu achorro é ${idade*6}`
+    :idadecao=(porte=="P")`a idade humana do seu cachorro é ${idade*5}`    
     //Saída
-
+    alert(`${idadecao}`)
 </script>
